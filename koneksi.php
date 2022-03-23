@@ -1,9 +1,9 @@
 <?php
 
 	$dbhost = "localhost";
-	$dbname = "jie_pijarcamp";
-	$dbuser = "jie_hooh";
-	$dbpass = "@@server@@";
+	$dbname = "pijarcamp";
+	$dbuser = "root";
+	$dbpass = "";
 
    
 	$koneksi = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname)or die("gagal, database tidak ditemukan");
